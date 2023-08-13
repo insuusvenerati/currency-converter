@@ -5,6 +5,30 @@
   <body>
     <div class="container">
       <h1>Convert USD to any currency</h1>
+      <form id="currency-conversion-form">
+        <label for="from">From</label>
+        <select name="from">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+          <option value="INR">INR</option>
+        </select>
+        <label for="amount">Amount</label>
+        <input type="text" name="amount" placeholder="Enter amount" />
+        <label for="to">To</label>
+        <select name="to">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+          <option value="INR">INR</option>
+        </select>
+        <input type="submit" value="Convert" />
+      </form>
+      <h3>Converted Amount</h3>
+      <div id="converted-amount"></div>
+      <div id="error"></div>
     </div>
   </body>
 </html>
