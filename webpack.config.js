@@ -18,7 +18,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Shape Tracker",
       template: "./src/index.html",
-      inject: "body",
+      inject: "head",
     }),
     new Dotenv(),
   ],
