@@ -20,9 +20,10 @@ _This currency exchange application allows users to enter an amount and convert 
 
 1. Clone the repository to your local machine.
 2. Create a .env file at the top level of the project directory.
-3. Obtain an API key from the ExchangeRate-API website and add it to the .env file as API_KEY=your_api_key.
-4. Run `npm install` to install all dependencies.
-5. Run `npm run start` to start the development server.
+3. Obtain an API key from the [ExchangeRate-API](https://exchangeratesapi.io/) website and add it to the .env file as API_KEY=your_api_key.
+4. Add the API_URL=https://v6.exchangerate-api.com/v6 value to .env file
+5. Run `npm install` to install all dependencies.
+6. Run `npm run start` to start the development server.
 
 ## Known Bugs
 
